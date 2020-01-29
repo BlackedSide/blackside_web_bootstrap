@@ -1,9 +1,5 @@
 body {
   background-color: #F8F9FA; }
 
-.container {
-  width: 960px;
-  margin: 0 auto; }
-
-.clear {
-  clear: both; }
+.self-container {
+  padding: 0; }
