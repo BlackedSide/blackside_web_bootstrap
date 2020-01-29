@@ -1,37 +1,54 @@
 body {
-  background-color: #F8F9FA; }
+  background-color: #F7F6F5; }
 
 .self-container {
   padding: 0; }
 
 .self-navbar {
   background-color: #39423F;
-  color: #F8F9FA; }
+  color: #F7F6F5; }
   .self-navbar a {
-    color: #F8F9FA; }
+    color: #F7F6F5; }
 
 .self-navbar-nav a {
-  color: #F8F9FA;
+  color: #F7F6F5;
   margin: 0 10px;
   font-size: 16px; }
 .self-navbar-nav a:hover {
-  color: #EB5381; }
+  color: #49BDF0; }
 
 .self-navbar-toggler {
-  border-color: #F8F9FA;
-  color: #F8F9FA;
+  border-color: #F7F6F5;
+  color: #F7F6F5;
   font-size: 16px;
   padding: 10px; }
 
 .self-navbar-form .form-control {
-  border-color: #F8F9FA;
-  background-color: #F8F9FA; }
+  border-color: #F7F6F5;
+  background-color: #F7F6F5; }
 .self-navbar-form .form-control:focus {
-  border-color: #EB5381; }
+  border-color: #49BDF0; }
 .self-navbar-form .btn {
-  border-color: #F8F9FA;
-  color: #F8F9FA; }
+  border-color: #F7F6F5;
+  color: #F7F6F5; }
 .self-navbar-form .btn:hover {
-  border-color: #EB5381;
-  background-color: #F8F9FA;
-  color: #EB5381; }
+  border-color: #49BDF0;
+  background-color: #F7F6F5;
+  color: #49BDF0; }
+
+.self-card {
+  padding: 40px 40px;
+  background-color: #CBD0D3; }
+  .self-card .table tr, .self-card .table th, .self-card .table td {
+    color: #39423F;
+    border-color: #F7F6F5;
+    text-align: center; }
+  .self-card .table tr:hover {
+    background-color: #F7F6F5;
+    color: #49BDF0; }
+  .self-card .table tr:hover th {
+    background-color: #F7F6F5;
+    color: #49BDF0; }
+  .self-card .table tr:hover td {
+    background-color: #F7F6F5;
+    color: #49BDF0; }

@@ -11,7 +11,7 @@
 </head>
 
 <body>
-<div class="container self-container">
+<div class="container-fluid self-container">
     <nav class="navbar navbar-expand-lg self-navbar">
         <a class="navbar-brand" href="#">Fannyuan</a>
         <button class="navbar-toggler self-navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
@@ -21,15 +21,41 @@
             <div class="navbar-nav self-navbar-nav">
                 <a class="nav-item nav-link" href="#">Homepage</a>
                 <a class="nav-item nav-link" href="#">Myself</a>
-                <a class="nav-item nav-link" href="#">Family</a>
+                <a class="nav-item nav-link" href="#">Hometown</a>
                 <a class="nav-item nav-link" href="#">Lover</a>
             </div>
+            <form class="form-inline ml-auto my-2 self-navbar-form">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                <button class="btn my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </div>
-        <form class="form-inline my-2 my-lg-0 self-navbar-form">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search">
-            <button class="btn my-2 my-sm-0" type="submit">Search</button>
-        </form>
     </nav>
+
+    <div class="self-card mx-auto col-xl-6 col-lg-8 col-md-10 mt-md-4 clearfix">
+        <div class="col-sm-4 float-left">
+            <img class="img-fluid img-thumbnail" src="./img/author.jpeg" alt="Author photo">
+        </div>
+        <div class="col-sm-8 float-left">
+            <table class="table table-bordered">
+                <tr>
+                    <th scope="col">Name</th>
+                    <td scope="col">BlackSide</td>
+                </tr>
+                <tr>
+                    <th scope="col">Birthday</th>
+                    <td scope="col">November 25th</td>
+                </tr>
+                <tr>
+                    <th scope="col">Hometown</th>
+                    <td scope="col">Guangdong Yunfu</td>
+                </tr>
+                <tr>
+                    <th scope="col">Location</th>
+                    <td scope="col">Anhui Hefei</td>
+                </tr>
+            </table>
+        </div>
+    </div>
 </div>
 </body>
 
