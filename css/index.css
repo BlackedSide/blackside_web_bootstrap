@@ -15,7 +15,7 @@ body {
   margin: 0 10px;
   font-size: 16px; }
 .self-navbar-nav a:hover {
-  color: #49BDF0; }
+  color: #F08300; }
 
 .self-navbar-toggler {
   border-color: #F7F6F5;
@@ -27,28 +27,54 @@ body {
   border-color: #F7F6F5;
   background-color: #F7F6F5; }
 .self-navbar-form .form-control:focus {
-  border-color: #49BDF0; }
+  border-color: #F08300; }
 .self-navbar-form .btn {
   border-color: #F7F6F5;
   color: #F7F6F5; }
 .self-navbar-form .btn:hover {
-  border-color: #49BDF0;
+  border-color: #F08300;
   background-color: #F7F6F5;
-  color: #49BDF0; }
+  color: #F08300; }
+
+.self-jumbotron {
+  background-image: url("../img/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0; }
+  .self-jumbotron h1 {
+    color: #F7F6F5;
+    text-align: center;
+    padding: 80px 0; }
 
 .self-card {
   padding: 40px 40px;
   background-color: #CBD0D3; }
-  .self-card .table tr, .self-card .table th, .self-card .table td {
-    color: #39423F;
-    border-color: #F7F6F5;
+  .self-card .table {
+    margin: 0; }
+    .self-card .table tr, .self-card .table th, .self-card .table td {
+      color: #39423F;
+      border-color: #F7F6F5;
+      text-align: center; }
+    .self-card .table tr:hover {
+      background-color: #F7F6F5;
+      color: #F08300; }
+    .self-card .table tr:hover th {
+      background-color: #F7F6F5;
+      color: #F08300; }
+    .self-card .table tr:hover td {
+      background-color: #F7F6F5;
+      color: #F08300; }
+  .self-card div {
     text-align: center; }
-  .self-card .table tr:hover {
-    background-color: #F7F6F5;
-    color: #49BDF0; }
-  .self-card .table tr:hover th {
-    background-color: #F7F6F5;
-    color: #49BDF0; }
-  .self-card .table tr:hover td {
-    background-color: #F7F6F5;
-    color: #49BDF0; }
+    .self-card div img {
+      max-height: 180px; }
+
+.self-end {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #39423F;
+  color: #F7F6F5; }
+  .self-end a {
+    text-decoration: none;
+    color: #F7F6F5; }
