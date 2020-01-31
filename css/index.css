@@ -81,6 +81,8 @@ body {
     .self-carousel .carousel-inner .carousel-item img {
       width: 100%;
       height: 100%; }
+    .self-carousel .carousel-inner .carousel-indicators li:hover {
+      background-color: #F08300; }
   .self-carousel p {
     margin: 10px auto 0 auto;
     max-width: 520px;
