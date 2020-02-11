@@ -64,44 +64,25 @@ body {
 
 .self-card {
   background-color: #CBD0D3;
-  text-align: center; }
-  .self-card .table tr, .self-card .table th, .self-card .table td {
+  text-align: left; }
+  .self-card .self-p-big {
     color: #39423F;
-    border-color: #F7F6F5;
-    text-align: center; }
-  .self-card .table tr:hover {
-    background-color: #F7F6F5;
+    font-size: 18px; }
+    .self-card .self-p-big a {
+      color: #F7F6F5;
+      text-decoration: none; }
+      .self-card .self-p-big a:hover {
+        color: #F08300; }
+    .self-card .self-p-big img {
+      max-width: 140px; }
+  .self-card .self-p-bl {
+    border-left: 4px solid #F7F6F5; }
+    .self-card .self-p-bl li {
+      color: #39423F;
+      font-size: 16px; }
+  .self-card h3 {
     color: #F08300; }
-  .self-card .table tr:hover th {
-    background-color: #F7F6F5;
-    color: #F08300; }
-  .self-card .table tr:hover td {
-    background-color: #F7F6F5;
-    color: #F08300; }
-  .self-card div {
-    text-align: center; }
-    .self-card div img {
-      max-height: 180px; }
 
-.self-carousel {
-  background-color: #CBD0D3;
-  text-align: center; }
-  .self-carousel .carousel-inner {
-    max-width: 480px;
-    max-height: 320px; }
-    .self-carousel .carousel-inner .carousel-item img {
-      width: 100%;
-      height: 100%; }
-    .self-carousel .carousel-inner .carousel-indicators li:hover {
-      background-color: #F08300; }
-  .self-carousel p {
-    margin: 10px auto 0 auto;
-    max-width: 520px;
-    background-color: #39423F;
-    color: #F7F6F5;
-    font-size: 18px;
-    padding: 6px 20px 6px 20px;
-    text-align: left;
-    text-indent: 2rem; }
-    .self-carousel p:hover {
-      color: #F08300; }
+.self-jumbotron {
+  background: url("../img/background02.jpeg") no-repeat;
+  background-size: 100%; }
