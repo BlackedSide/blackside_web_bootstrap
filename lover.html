@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Lover</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/lover.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/blueimp-md5/2.16.0/js/md5.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg self-navbar">
+    <a class="navbar-brand" href="#">Fannyuan</a>
+    <button class="navbar-toggler self-navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false">
+        Menu
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav mr-auto self-navbar-nav">
+            <a class="nav-item nav-link" href="./index.html">Homepage</a>
+            <a class="nav-item nav-link" href="./myself.html">Myself</a>
+            <a class="nav-item nav-link" href="#">Hometown</a>
+            <a class="nav-item nav-link active" href="./lover.html">Lover</a>
+        </div>
+        <form class="form-inline self-navbar-form">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search">
+            <button class="btn my-sm-0 mt-2" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+
+<div class="jumbotron jumbotron-fluid m-0 self-jumbotron">
+    <h1>I Love You Three Thousand</h1>
+</div>
+
+<div class="self-login p-4 mx-auto my-4" id="login-content">
+    <h1 class="self-homepage-title">Check your Identity</h1>
+    <label for="passport" class="mt-2">The date (8 numbers) we became together</label>
+    <br>
+    <input class="form-control mx-auto" type="text" id="passport">
+    <br>
+    <button class="btn my-sm-0 mt-2" onclick="login()">Submit</button>
+</div>
+
+<div class="self-card p-4 mx-auto my-4" id="self-card">
+    <ul class="self-carousel m-auto">
+        <li><img src="./img/lover1.jpeg" alt="">
+            <div class="self-flag"><p>The very long time ago took in the BaoGong Park. The day was February 24th in 2019. The time studying with you is wonderful.</p></div>
+        </li>
+        <li><img src="./img/lover2.jpeg" alt="">
+            <div class="self-flag"><p>This picture was taken on April 27th. We went to the cinema for Avengers: Endgame. Thank you for supporting my interests.</p></div>
+        </li>
+        <li><img src="./img/lover5.jpeg" alt="">
+            <div class="self-flag"><p>The cat called Feg who belongs to us is our favourite pet. We always share good time with it.</p></div>
+        </li>
+        <li><img src="./img/lover3.jpeg" alt="">
+            <div class="self-flag"><p>Travelling with you is always enjoyable. It was August 23rd. It took a lot of effort for the Changsha trip.</p></div>
+        </li>
+        <li><img src="./img/lover4.jpeg" alt="">
+            <div class="self-flag"><p>I like to pick you up after your work. I'm deeply looking forward to the future we could go home together.</p></div>
+        </li>
+    </ul>
+</div>
+
+<div class="self-letter p-4 mx-auto my-4" id="self-letter">
+    <h2 class="self-homepage-title">A New LOVE Letter</h2>
+    <div class="self-letter-para">
+        <p>It's hard to say how much I love you. There has been a long time I didn't write a LOVE letter to you. These days I shocked myself to create this idea, to give you a surprise in 520.
+            Having dinner or watching a movie is always the way we celebrate our festivals. In this time, we could not go to the cinema for enjoying a movie, so that it seems lacking a lot of fun
+            between us. However, I suppose that the time being together, no matter what we are doing, is very wonderful time.</p>
+        <p>I always afraid of my skill of programming could not earn enough money to give you happy life. But I believe that the way I program to create this kind of gift could bring you happiness.
+            Thank you for always supporting me even though I always said that your suggestions are less helpful. However, listening to your suggestions makes me comfortable. I don't know what kind of
+            career I would get in the future, but I will do my best to make our life much more comfortable. As well I hope that you will continue to support me whenever.</p>
+        <p>Too much words would make me shy. Easy words to express my heart. I love you three thousand. Happy 520 and everyday in the future, both of us!</p>
+        <p style="text-align: right;">Stupid Fan</p>
+        <p style="text-align: right;">May 20th, 2020</p>
+    </div>
+</div>
+
+<div class="self-footer p-3">
+    <h4>Thank you for visiting!</h4>
+    <a href="#">皖ICP备20000496号</a>
+</div>
+</body>
+
+<script>
+    let passportMD5 = "b4a006b3476768536b95abb3819d9a8d";
+    function login() {
+      let passport = document.getElementById("passport").value;
+      if (md5(passport) === passportMD5) {
+        document.getElementById("self-card").style.display = "block";
+        document.getElementById("self-letter").style.display = "block";
+      }
+    }
+</script>
+
+<script src="./js/jquery.min.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+</html>
